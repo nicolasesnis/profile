@@ -1,0 +1,114 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #ff7e5f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff7e5f, #feb47b); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  /*text-decoration: none;*/
+  background-color: rgb(239, 208, 158);
+}
+
+a:visited { text-decoration: none; color:black; }
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.card1 {
+  background-color: rgb(173, 216, 204);
+  padding: 20px;
+  border-radius: 20px;
+  border-right: 3px solid rgb(237, 106, 90);
+  border-bottom: 3px solid rgb(237, 106, 90);
+  border-left: 3px solid rgb(237, 106, 90);
+  border-top: 3px solid rgb(237, 106, 90);
+  width: 80%;
+  margin: 0 auto;
+}
+
+#name{
+  color: rgb(237, 106, 90);
+  font-size: 50px;
+}
+
+#guitar1{
+  width: 20%;
+  margin-right: 150px;
+  margin-bottom: -100px;
+  margin-top: -100px;
+}
+
+#guitar2{
+  width: 20%;
+  margin-left: 150px;
+  margin-bottom: -100px;
+  margin-top: -100px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+h3{
+  font-size: 25px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.profile-picture {
+  border: 3px solid rgb(237, 106, 90);
+  border-radius: 150px;
+  width: 200px;
+  height: 200px;
+  margin-bottom: -60px;
+}
+
+.card2 {
+  background-color: rgb(173, 216, 204);
+  padding: 20px;
+  border-radius: 20px;
+  border-right: 3px solid rgb(237, 106, 90);
+  border-bottom: 3px solid rgb(237, 106, 90);
+  border-left: 3px solid rgb(237, 106, 90);
+  border-top: 3px solid rgb(237, 106, 90);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.small_card {
+  background-color: rgba(239, 208, 158, 0.5);  padding: 20px;
+  margin-top: 10px;
+  border-radius: 30px;
+  border-top: 3px dotted rgb(237, 106, 90);
+  border-right: 3px dotted rgb(237, 106, 90);
+  border-bottom: 3px dotted rgb(237, 106, 90);
+  border-left: 3px dotted rgb(237, 106, 90);
+  border-top: 3px dotted rgb(237, 106, 90);
+  display: inline-block;
+  padding: 20px;
+  width: 25%
+}
+
+.hobby-image-1{
+  width: 81%;
+}
+
+.hobby-image-2{
+  width: 50%;
+}
+
+.hobby-image-3{
+  width: 85%;
+}
+
